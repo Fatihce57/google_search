@@ -41,15 +41,10 @@ li > a {
   margin-bottom: 30px;
 }
 
-form{
+form {
   display: flex;
   justify-content: center;
-
 }
-
-
-
-
 
 input {
   width: 550px;
@@ -60,18 +55,15 @@ input {
   background-color: white;
   background-image: url('images/searchicon.png');
   background-size: 23px;
-  background-position: 10px 10px; 
+  background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 10px 20px 10px 40px;
   outline: none;
-  
 }
 
-form :hover{
+form :hover {
   box-shadow: 0 0 4px 5px rgb(245, 243, 241);
 }
-
-
 
 .flex-container-3 {
   display: flex;
@@ -92,7 +84,7 @@ form :hover{
 }
 
 .googlesearch:hover {
-  border: 1px solid  rgba(226, 223, 223, 0.938);
+  border: 1px solid rgba(226, 223, 223, 0.938);
 }
 
 .lucky {
@@ -110,11 +102,12 @@ form :hover{
   border: 1px solid #e2dfdfef;
 }
 
-
-.lucky:hover span {display:none}
-.lucky:hover:before {content:"Heute lieber Trends"}
-
-
+.lucky:hover span {
+  display: none;
+}
+.lucky:hover:before {
+  content: 'Heute lieber Trends';
+}
 
 .flex-container-4 {
   display: flex;
@@ -153,11 +146,3 @@ footer {
   display: inline-block;
   padding-right: 20px;
 }
-
-
-
-
-
-
-
-
